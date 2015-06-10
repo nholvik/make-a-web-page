@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head> 
+  <title>Nick's Notes</title>
+  <link rel="stylesheet" type="text/css" href="page.css">
+</head>
+<body>
+<div class= "TOC">
+    <h1 class= "Table Contents"> Table of Contents </h1>
+    <ol>
+        <li class="TOC lessons"><a href="#lesson-1"> Lesson 1: The Basics of the Web & HTML </a>
+            <ul>
+                <li><a href="#lesson-1-1"> Hypertext Markup Language</a></li>
+                <li><a href="#lesson-1-2"> HTML Attributes</a></li>
+                <li><a href="#lesson-1-3"> Line Breaks </a></li>
+                <li><a href="#lesson-1-4"> Inline/Block Elements </a></li>
+                <li><a href="#lesson-1-5"> Span/Div Containers </a></li>
+            </ul>
+        </li>
+        <li class="TOC lessons"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+            <ul>
+                <li><a href="#lesson-2-1"> Developer Tools</a></li>
+                <li><a href="#lesson-2-2">Tree-like Structure in HTML</a></li>
+                <li><a href="#lesson-2-3"> HTML and Boxes</a></li>
+            </ul>
+        </li>
+        <li class="TOC lessons"><a href="#lesson-3"> Lesson 3: Adding CSS Style to HTML Structure</a>
+            <ul>
+                <li><a href="#lesson-3-1"> Avoiding Repetition </a></li>
+                <li><a href="#lesson-3-2"> CSS </a></li>
+            </ul>
+        </li>
+    </ol>
+</div>
+
+<h1> Nick's IPND Notes</h1>
+  <div class="lesson">
+     <h2 id="lesson-1"> Lesson 1: The Basics of the Web & HTML</h2>
+        <div class="concept">
+            <div class="concept-title">
+                <h4 id="lesson-1-1">HTML or <em> Hypertext Markup Language</em></h4>
+            </div>
+            <div class="concept-description">
+                <p><em>HTML</em> is made up of:</p>
+                <ul>
+                <li>text content</li><li>Mark up</li><li>References</li><li>Links to to other pages</li>
+                </ul>
+                <p>HTML is consisted of tags. You will typically have an opening tag and a closing tag </p>
+                <p>For example b tag is a bold tag.</p>
+            </div>
+        </div>
+        <div class= "concept">
+            <div class= "concept-title">
+                <h4 id="lesson-1-2"> HTML Attributes</h4>
+            </div>
+            <div class= "concept-description">
+                <p>Certain tags have attributes, you can use the A HREF tag used to hyperlink. </p>
+                <p>I can create a link by using the A HREF tag. For example, <a href ="www.google.com"> clicking this link will take you to google</a></p>
+                <p>You can also use the img tag to add an image to your webapage. To do this, you have to use the img src = "url" alt = "text" tag. For example, i'm adding this image of Hawaii by doing so: </p>
+                <p class="image"><img src="http://www.astonhotels.com/assets/slides/690x380-Hawaii-Sunset.jpg" alt="I do not own this image of Hawaii"></p>
+                <p>When you use a img tag, it is a <b><em>void tag</em></b> because you do not need to use a closing tag.</p>
+                <p>Also, if the link is broken, the "text" part of the tag will appear. This is also useful for blind people.</p> 
+            </div>
+        </div>
+        <div class= "concept">
+            <div class= "concept-title">
+                <h4 id="lesson-1-3"><b>Line Breaks</b></h4>
+            </div>
+            <div class= "concept-description">
+                <p>You can use the tag BR to create a <em>line break</em></p>
+                <p>......This is also a void tag</p>
+                <p>Another tag you can use for a line break is the P tag, which is <em>not</em> void.</P>
+            </div>
+        </div>
+        <div class="concept">
+            <div class="concept-title">
+                <h4 id="lesson-1-4">Inline/Block</h4>
+            </div>
+            <div class= "concept-description">
+                <p>Certain elements can be either inline or block. This means that they will either continue in the line you are working on, or they will create an invisible block around them. </p>
+                <p> br tag is used inline</P>
+                <p>p tag is block, it kind of creates an invisible box around the text where you can change the width and height</p>
+                <p><em>Some examples of inline elements</em></p>
+                <ul> <li> br </li>
+                <li> em </li>
+                <li> img </li>
+                </ul>
+                <p>...the only <em>block element</em> we've learnt so far is P </p>
+            </div>
+        </div>
+        <div class="concept">
+            <div class="concept-title">
+                <h4 id="lesson-1-5">Span/Div</h4>
+            </div>
+            <div class= "concept-description">
+                <ul>
+                <li>Span - Inline</li>
+                <li>Div - Block</li>
+                </ul>
+                <p>...these do nothing, but contain content</p>
+            </div>
+        </div>
+    </div>
+    <div class= "lesson">
+        <h2 id="lesson-2"> Lesson 2: Creating a Structrued Document with HTML</h2>
+        <div class= "concept">
+            <div class= "concept-title">
+                <h4 id="lesson-2-1">Developer tools </h4>
+            </div>
+            <div class="concept-description">
+                <p>There are developer tools that can be found in the browser. In google chrome, you can find it under the 3 lins in the upper right corner of the brower, then click more tools, then developer tools. </p>
+            </div>
+        </div>
+        <div class= "concept">
+            <div class= "concept-title">
+                <h4 id="lesson-2-2"> Tree like structure in HTML</h4>
+            </div>
+            <div class="concept-description">
+                <p>Html structure ends up being like a tree, because certain elements can have other elements inside them. In a browser, code really looks like a series of boxes, but we see it differently. </p>
+            </div>
+        </div>
+        <div class= "concept">
+            <div class= "concept-title">
+                <h4 id="lesson-2-3"> HTML and Boxes  </h4>
+            </div>
+            <div class= "concept-description">
+                <p>The way HTML works, is it is in boxes. When you see the final product, it is still boxes.</p>
+            </div>
+        </div> 
+    </div>
+    <div class= "lesson">
+        <h2 id="lesson-3"> Lesson 3: Adding CSS Style to HTML Structure</h2>
+        
+        <div class="concept">
+            <div class="concept-title">
+                <h4 id="lesson-3-1"> Avoiding Repetition</h4>
+            </div>
+            <div class="concept-description">
+                <p> Avoiding repetition is important so programmers can avoid errors. Consistency is also important to help avoid repetition. If you name each area that you want to look the same, the same div class, you only need to apply it once in the style sheet.</p>
+            </div>
+        </div>
+        <div class="concept">
+            <div class="concept-title">
+                <h4 id="lesson-3-2">CSS</h4>
+            </div>
+            <div class="concept-description">
+                <p> CSS stands for Cascading Style Sheets and it is used to give style to basic HTML documents. To do this, you can give a block of code a certain class, and then apply style to that class using CSS </p>
+            </div>
+        </div>
+    </div>
+</body>
